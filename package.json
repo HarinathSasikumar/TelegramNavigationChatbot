@@ -1,0 +1,17 @@
+{
+  "name": "whatsappchatbot",
+  "version": "1.0.0",
+  "description": "WhatsApp Navigation Chatbot — Spring Boot Backend",
+  "main": "index.js",
+  "scripts": {
+    "dev":   "powershell -ExecutionPolicy Bypass -File scripts/start.ps1",
+    "start": "powershell -ExecutionPolicy Bypass -File scripts/start.ps1",
+    "build": "mvn clean package -DskipTests",
+    "test":  "mvn test",
+    "kill":  "powershell -Command \"$p=(netstat -ano|Select-String ':8085 '|%{($_.Line -split '\\s+')[-1]}|?{$_ -match '^\\d+$' -and $_ -ne '0'}|Select -Unique); if($p){taskkill /PID $p /F; Write-Host 'Killed PID' $p}else{Write-Host 'Port 8085 is free'}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

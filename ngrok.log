@@ -1,0 +1,100 @@
+t=2026-04-11T18:51:37+0530 lvl=info msg="no configuration paths supplied"
+t=2026-04-11T18:51:37+0530 lvl=info msg="using configuration at default config path" path="C:\\Users\\HARINATH S\\AppData\\Local\\ngrok\\ngrok.yml"
+t=2026-04-11T18:51:37+0530 lvl=info msg="open config file" path="C:\\Users\\HARINATH S\\AppData\\Local\\ngrok\\ngrok.yml" err=nil
+t=2026-04-11T18:51:37+0530 lvl=info msg="FIPS 140 mode" enabled=false
+t=2026-04-11T18:51:37+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2026-04-11T18:51:39+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2026-04-11T18:51:39+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-04-11T18:51:40+0530 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8085 url=https://storm-frosty-dimly.ngrok-free.dev
+t=2026-04-11T20:34:50+0530 lvl=info msg=start pg=/api/tunnels id=cbbd97f71081ed23
+t=2026-04-11T20:34:50+0530 lvl=info msg=end pg=/api/tunnels id=cbbd97f71081ed23 status=200 dur=3.7506ms
+t=2026-04-11T20:39:06+0530 lvl=info msg="join connections" obj=join id=271c2354b8ad l=[::1]:8085 r=91.108.5.80:44920
+t=2026-04-11T20:41:08+0530 lvl=info msg="join connections" obj=join id=e4e3eb133592 l=[::1]:8085 r=91.108.5.80:56062
+t=2026-04-11T20:42:28+0530 lvl=info msg=start pg=/api/requests/http id=9a6da4ef5b925281
+t=2026-04-11T20:42:28+0530 lvl=info msg=end pg=/api/requests/http id=9a6da4ef5b925281 status=200 dur=2.0969ms
+t=2026-04-11T20:59:44+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=49b81d85a444 err="read tcp 172.22.15.238:61441->3.108.208.206:443: wsarecv: An existing connection was forcibly closed by the remote host."
+t=2026-04-11T20:59:44+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=38c6c8559282 clientid=5caff51f114dfcf5fa480607a6fe010f
+t=2026-04-11T20:59:44+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-11T20:59:45+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-11T20:59:46+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-11T20:59:48+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-11T21:52:01+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-11T21:52:09+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-11T21:52:28+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2026-04-11T21:52:28+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-04-11T21:54:43+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=e749443a9932 clientid=5caff51f114dfcf5fa480607a6fe010f
+t=2026-04-11T21:54:43+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=49b81d85a444 err="session closed"
+t=2026-04-11T21:54:52+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2026-04-11T21:54:52+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-04-11T22:44:36+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=37aafd1aa707 clientid=5caff51f114dfcf5fa480607a6fe010f
+t=2026-04-11T22:44:36+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=49b81d85a444 err="session closed"
+t=2026-04-11T22:44:42+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2026-04-11T22:44:42+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-04-12T00:03:36+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=05f102c61ac4 clientid=5caff51f114dfcf5fa480607a6fe010f
+t=2026-04-12T00:03:36+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=49b81d85a444 err="write tcp 10.19.20.185:54595->3.108.166.207:443: wsasend: An established connection was aborted by the software in your host machine."
+t=2026-04-12T00:03:37+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:03:39+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:03:53+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to send authentication request: failed to fetch CRL. errors encountered: timed out fetching CRL"
+t=2026-04-12T00:04:05+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 13.127.105.236:443: i/o timeout"
+t=2026-04-12T00:04:19+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 13.127.105.236:443: i/o timeout"
+t=2026-04-12T00:04:37+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 13.127.105.236:443: i/o timeout"
+t=2026-04-12T00:04:53+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:05:33+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+t=2026-04-12T00:06:13+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+t=2026-04-12T00:06:53+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 3.108.166.207:443: i/o timeout"
+t=2026-04-12T00:07:33+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 3.108.208.206:443: i/o timeout"
+t=2026-04-12T00:08:13+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+t=2026-04-12T00:08:43+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:09:13+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:09:43+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:10:13+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2026-04-12T00:10:13+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-04-12T00:12:53+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=49b81d85a444 err="read tcp 10.97.191.185:50427->13.127.105.236:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."
+t=2026-04-12T00:12:53+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:12:54+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:12:55+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:12:57+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:12:59+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=8bf13a911330 clientid=5caff51f114dfcf5fa480607a6fe010f
+t=2026-04-12T00:13:01+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:13:09+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:13:25+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:13:55+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:14:25+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:14:55+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:15:25+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:15:55+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:16:25+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:16:55+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:17:25+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2026-04-12T00:17:57+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2026-04-12T00:17:57+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-04-12T00:27:20+0530 lvl=warn msg="failed to open private leg" id=fb7b589b985f privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:27:22+0530 lvl=warn msg="failed to open private leg" id=fea866cfeba1 privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:27:25+0530 lvl=warn msg="failed to open private leg" id=c934f8f43a9a privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:27:29+0530 lvl=warn msg="failed to open private leg" id=149798bb02a4 privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:27:38+0530 lvl=warn msg="failed to open private leg" id=3410264e4989 privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:27:54+0530 lvl=warn msg="failed to open private leg" id=7f54c349290a privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:28:26+0530 lvl=warn msg="failed to open private leg" id=d2170b655da9 privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:28:43+0530 lvl=info msg=start pg=/api/requests/http id=7ba102434e1c2298
+t=2026-04-12T00:28:43+0530 lvl=info msg=end pg=/api/requests/http id=7ba102434e1c2298 status=200 dur=0s
+t=2026-04-12T00:29:31+0530 lvl=warn msg="failed to open private leg" id=85cb099da0e3 privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:30:23+0530 lvl=warn msg="failed to open private leg" id=b7b49948bec1 privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:30:23+0530 lvl=warn msg="failed to open private leg" id=31df4aa3f917 privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:30:26+0530 lvl=warn msg="failed to open private leg" id=bb697b99776a privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:30:30+0530 lvl=warn msg="failed to open private leg" id=9af8ef57f07d privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:30:39+0530 lvl=warn msg="failed to open private leg" id=0b86416232f8 privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:30:55+0530 lvl=warn msg="failed to open private leg" id=b40ec3a55255 privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:31:07+0530 lvl=warn msg="failed to open private leg" id=10cfe89434cb privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:31:28+0530 lvl=warn msg="failed to open private leg" id=b2b2f67d7eef privaddr=localhost:8085 err="dial tcp [::1]:8085: connectex: No connection could be made because the target machine actively refused it."
+t=2026-04-12T00:32:32+0530 lvl=info msg="join connections" obj=join id=ba6f4bc6bde7 l=[::1]:8085 r=91.108.5.80:26928
+t=2026-04-12T00:36:35+0530 lvl=info msg="join connections" obj=join id=d9e232320311 l=[::1]:8085 r=91.108.5.80:27070
+t=2026-04-12T00:39:29+0530 lvl=info msg="join connections" obj=join id=a7df611cd2a0 l=[::1]:8085 r=91.108.5.80:41012
+t=2026-04-12T00:42:33+0530 lvl=info msg="join connections" obj=join id=22280e7dacd4 l=[::1]:8085 r=91.108.5.80:58450
+t=2026-04-12T00:47:35+0530 lvl=info msg="join connections" obj=join id=4f67772177ab l=[::1]:8085 r=91.108.5.80:26296
+t=2026-04-12T00:50:30+0530 lvl=info msg="join connections" obj=join id=70671d6c3f39 l=[::1]:8085 r=91.108.5.80:30422
+t=2026-04-12T00:55:37+0530 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2026-04-12T00:55:37+0530 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2026-04-12T00:55:37+0530 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=49b81d85a444 err="reconnecting session closed"
+t=2026-04-12T00:55:37+0530 lvl=info msg="no more state changes" obj=tunnels.session
+t=2026-04-12T00:55:37+0530 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=2bf69ab5eb5a5f9bcf578fe22c7bf4f0
+t=2026-04-12T00:55:37+0530 lvl=warn msg="Stopping forwarder" name=command_line acceptErr="failed to accept connection: Listener closed"
